@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		07412D9629EA73A200A87F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412D9529EA73A200A87F12 /* AppDelegate.swift */; };
 		07412D9829EA73A200A87F12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412D9729EA73A200A87F12 /* SceneDelegate.swift */; };
-		07412D9A29EA73A200A87F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412D9929EA73A200A87F12 /* ViewController.swift */; };
 		07412D9D29EA73A200A87F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07412D9B29EA73A200A87F12 /* Main.storyboard */; };
 		07412D9F29EA73A400A87F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07412D9E29EA73A400A87F12 /* Assets.xcassets */; };
 		07412DA229EA73A400A87F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07412DA029EA73A400A87F12 /* LaunchScreen.storyboard */; };
+		07412DAE29EA7AA400A87F12 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412DAD29EA7AA400A87F12 /* DatabaseManager.swift */; };
+		07412DB229EA7B0600A87F12 /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412DB129EA7B0600A87F12 /* ContactListViewModel.swift */; };
+		07412DB429EA7B1300A87F12 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412DB329EA7B1300A87F12 /* ContactModel.swift */; };
+		07412DB629EA7B3F00A87F12 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412DB529EA7B3F00A87F12 /* ContactListView.swift */; };
+		07412DB829EA7B7500A87F12 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412DB729EA7B7500A87F12 /* ContactView.swift */; };
+		07412DBA29EA7B9600A87F12 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412DB929EA7B9600A87F12 /* ContactViewModel.swift */; };
+		07412DBC29EA89F700A87F12 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412DBB29EA89F700A87F12 /* ContactCell.swift */; };
+		07412DBF29EAAB5900A87F12 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412DBE29EAAB5900A87F12 /* ImagePicker.swift */; };
+		07412DC129EAB2FB00A87F12 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07412DC029EAB2FB00A87F12 /* Extensions.swift */; };
+		95EE508165E9BE3DD3220C8A /* Pods_ContactsDemoWithSQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A794EB7D839616508FF3A415 /* Pods_ContactsDemoWithSQLite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07412D9229EA73A200A87F12 /* ContactsDemoWithSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsDemoWithSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07412D9529EA73A200A87F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07412D9729EA73A200A87F12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07412D9929EA73A200A87F12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07412D9C29EA73A200A87F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07412D9E29EA73A400A87F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07412DA129EA73A400A87F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07412DA329EA73A400A87F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07412DAD29EA7AA400A87F12 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		07412DB129EA7B0600A87F12 /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		07412DB329EA7B1300A87F12 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		07412DB529EA7B3F00A87F12 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		07412DB729EA7B7500A87F12 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		07412DB929EA7B9600A87F12 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		07412DBB29EA89F700A87F12 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		07412DBE29EAAB5900A87F12 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		07412DC029EAB2FB00A87F12 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0CCA2F0B0BA3C6060799F108 /* Pods-ContactsDemoWithSQLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsDemoWithSQLite.debug.xcconfig"; path = "Target Support Files/Pods-ContactsDemoWithSQLite/Pods-ContactsDemoWithSQLite.debug.xcconfig"; sourceTree = "<group>"; };
+		A794EB7D839616508FF3A415 /* Pods_ContactsDemoWithSQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsDemoWithSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EA406DDCE88F603BDCBE93 /* Pods-ContactsDemoWithSQLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsDemoWithSQLite.release.xcconfig"; path = "Target Support Files/Pods-ContactsDemoWithSQLite/Pods-ContactsDemoWithSQLite.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EE508165E9BE3DD3220C8A /* Pods_ContactsDemoWithSQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				07412D9429EA73A200A87F12 /* ContactsDemoWithSQLite */,
 				07412D9329EA73A200A87F12 /* Products */,
+				FD423B2A497173EDE4CF78C3 /* Pods */,
+				C58DBC8807F2681BE39C4F23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,78 @@
 			children = (
 				07412D9529EA73A200A87F12 /* AppDelegate.swift */,
 				07412D9729EA73A200A87F12 /* SceneDelegate.swift */,
-				07412D9929EA73A200A87F12 /* ViewController.swift */,
+				07412DAB29EA7A7800A87F12 /* DatabaseManager */,
+				07412DBD29EAAB4300A87F12 /* Custom */,
+				07412DAA29EA7A7800A87F12 /* ContactViews */,
+				07412DA929EA7A7800A87F12 /* ContactViewModels */,
+				07412DAC29EA7A7800A87F12 /* ContactModels */,
 				07412D9B29EA73A200A87F12 /* Main.storyboard */,
 				07412D9E29EA73A400A87F12 /* Assets.xcassets */,
 				07412DA029EA73A400A87F12 /* LaunchScreen.storyboard */,
 				07412DA329EA73A400A87F12 /* Info.plist */,
 			);
 			path = ContactsDemoWithSQLite;
+			sourceTree = "<group>";
+		};
+		07412DA929EA7A7800A87F12 /* ContactViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				07412DB129EA7B0600A87F12 /* ContactListViewModel.swift */,
+				07412DB929EA7B9600A87F12 /* ContactViewModel.swift */,
+			);
+			path = ContactViewModels;
+			sourceTree = "<group>";
+		};
+		07412DAA29EA7A7800A87F12 /* ContactViews */ = {
+			isa = PBXGroup;
+			children = (
+				07412DB529EA7B3F00A87F12 /* ContactListView.swift */,
+				07412DB729EA7B7500A87F12 /* ContactView.swift */,
+				07412DBB29EA89F700A87F12 /* ContactCell.swift */,
+			);
+			path = ContactViews;
+			sourceTree = "<group>";
+		};
+		07412DAB29EA7A7800A87F12 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				07412DAD29EA7AA400A87F12 /* DatabaseManager.swift */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		07412DAC29EA7A7800A87F12 /* ContactModels */ = {
+			isa = PBXGroup;
+			children = (
+				07412DB329EA7B1300A87F12 /* ContactModel.swift */,
+			);
+			path = ContactModels;
+			sourceTree = "<group>";
+		};
+		07412DBD29EAAB4300A87F12 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				07412DBE29EAAB5900A87F12 /* ImagePicker.swift */,
+				07412DC029EAB2FB00A87F12 /* Extensions.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		C58DBC8807F2681BE39C4F23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A794EB7D839616508FF3A415 /* Pods_ContactsDemoWithSQLite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD423B2A497173EDE4CF78C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCA2F0B0BA3C6060799F108 /* Pods-ContactsDemoWithSQLite.debug.xcconfig */,
+				A7EA406DDCE88F603BDCBE93 /* Pods-ContactsDemoWithSQLite.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07412DA629EA73A400A87F12 /* Build configuration list for PBXNativeTarget "ContactsDemoWithSQLite" */;
 			buildPhases = (
+				8727F6C56386424E3E3B67A7 /* [CP] Check Pods Manifest.lock */,
 				07412D8E29EA73A200A87F12 /* Sources */,
 				07412D8F29EA73A200A87F12 /* Frameworks */,
 				07412D9029EA73A200A87F12 /* Resources */,
+				3A3D94367B80D823C4A69258 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +223,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A3D94367B80D823C4A69258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactsDemoWithSQLite/Pods-ContactsDemoWithSQLite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactsDemoWithSQLite/Pods-ContactsDemoWithSQLite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactsDemoWithSQLite/Pods-ContactsDemoWithSQLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8727F6C56386424E3E3B67A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactsDemoWithSQLite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07412D8E29EA73A200A87F12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07412D9A29EA73A200A87F12 /* ViewController.swift in Sources */,
+				07412DBC29EA89F700A87F12 /* ContactCell.swift in Sources */,
+				07412DAE29EA7AA400A87F12 /* DatabaseManager.swift in Sources */,
+				07412DB629EA7B3F00A87F12 /* ContactListView.swift in Sources */,
+				07412DBA29EA7B9600A87F12 /* ContactViewModel.swift in Sources */,
+				07412DB229EA7B0600A87F12 /* ContactListViewModel.swift in Sources */,
+				07412DB429EA7B1300A87F12 /* ContactModel.swift in Sources */,
+				07412DBF29EAAB5900A87F12 /* ImagePicker.swift in Sources */,
+				07412DB829EA7B7500A87F12 /* ContactView.swift in Sources */,
 				07412D9629EA73A200A87F12 /* AppDelegate.swift in Sources */,
+				07412DC129EAB2FB00A87F12 /* Extensions.swift in Sources */,
 				07412D9829EA73A200A87F12 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +422,7 @@
 		};
 		07412DA729EA73A400A87F12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCA2F0B0BA3C6060799F108 /* Pods-ContactsDemoWithSQLite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,11 +430,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ContactsDemoWithSQLite/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The application requires access to your camera to allow you to upload a profile picture.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The application requires access to your photos to allow you to upload a profile picture.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +453,7 @@
 		};
 		07412DA829EA73A400A87F12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EA406DDCE88F603BDCBE93 /* Pods-ContactsDemoWithSQLite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,11 +461,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ContactsDemoWithSQLite/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The application requires access to your camera to allow you to upload a profile picture.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The application requires access to your photos to allow you to upload a profile picture.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
