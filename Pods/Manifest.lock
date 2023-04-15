@@ -1,0 +1,22 @@
+PODS:
+  - SQLite.swift (0.14.1):
+    - SQLite.swift/standard (= 0.14.1)
+  - SQLite.swift/standard (0.14.1)
+  - TPKeyboardAvoidingSwift (3.2)
+
+DEPENDENCIES:
+  - SQLite.swift
+  - TPKeyboardAvoidingSwift
+
+SPEC REPOS:
+  trunk:
+    - SQLite.swift
+    - TPKeyboardAvoidingSwift
+
+SPEC CHECKSUMS:
+  SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
+  TPKeyboardAvoidingSwift: ce1a75e0bc3af6b485f8bfa1d0a8320cfc565851
+
+PODFILE CHECKSUM: c02576ef67d145d3097c37a4e18dc947868ff225
+
+COCOAPODS: 1.12.0
