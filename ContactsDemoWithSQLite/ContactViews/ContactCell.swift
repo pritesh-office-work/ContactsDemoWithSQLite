@@ -59,7 +59,7 @@ extension ContactCell {
     func deleteContact(contact: ContactModel) {
         
         if let contactListView = parentViewController as? ContactListView {
-            var confirmAlert = UIAlertController(title: "", message: "Are you sure you want to delete this contact ? ", preferredStyle: .alert)
+            let confirmAlert = UIAlertController(title: "", message: "Are you sure you want to delete this contact ? ", preferredStyle: .alert)
             confirmAlert.addAction(UIAlertAction(title: "Confirm", style: .default, handler: { (action: UIAlertAction!) in
 
                 let status = DatabaseManager.shared.deleteContact(cid: contact.id!)
